@@ -10,9 +10,6 @@ A responsive weather application built using ReactJS and the OpenWeatherMap API.
 * Wind speed details
 * Responsive user interface
 
-<img width="1917" height="975" alt="image" src="https://github.com/user-attachments/assets/e7bded63-8dbe-41e2-b522-54b9c4f35da4" />
-
-
 ## Screenshots
 
 ### Home Page
