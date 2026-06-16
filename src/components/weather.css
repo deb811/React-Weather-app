@@ -1,4 +1,4 @@
-.weather {
+/* .weather {
   margin: 2rem 0;
   border: 3px solid rgb(0, 0, 0);
   border-radius: 5px;
@@ -40,6 +40,81 @@
 .weather .getweather:hover {
   background: transparent;
   color: black;
+}
+
+.weather .getweather:focus {
+  outline: none;
+} */
+
+
+.weather {
+  width: 90%;
+  max-width: 900px;
+  margin:  auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.weather .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* .weather form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+} */
+ .weather form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.weather form input {
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+  width: 250px;
+  max-width: 100%;
+}
+
+.weather form input:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 8px rgba(79, 172, 254, 0.4);
+}
+
+.weather .getweather {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #4facfe;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.weather .getweather:hover {
+  background: #3399ff;
+  transform: translateY(-2px);
+}
+
+.weather .getweather:active {
+  transform: scale(0.98);
 }
 
 .weather .getweather:focus {
